@@ -1,0 +1,962 @@
+2024-06-10 11:34:39,051 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8099
+2024-06-10 11:34:39,051 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-06-10 11:34:44,291 - root - INFO - admin login
+2024-06-10 11:34:44,315 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:34:44] "GET /admin HTTP/1.1" 200 -
+2024-06-10 11:34:44,449 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:34:44] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 11:34:48,170 - root - INFO - Inventory dashboard
+2024-06-10 11:34:48,205 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:34:48] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 11:34:48,244 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:34:48] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 11:35:03,071 - root - INFO - admin dashboard-employee management
+2024-06-10 11:35:03,113 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:35:03] "GET /index HTTP/1.1" 200 -
+2024-06-10 11:35:03,155 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:35:03] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 11:35:04,686 - root - INFO - Inventory assign dashboard
+2024-06-10 11:35:04,720 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:35:04] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-10 11:35:06,951 - root - INFO - Inventory dashboard
+2024-06-10 11:35:06,951 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:35:06] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 11:35:06,997 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:35:06] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 11:56:04,090 - root - INFO - Landing page accessed
+2024-06-10 11:56:04,110 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:56:04] "GET / HTTP/1.1" 200 -
+2024-06-10 11:56:04,221 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:56:04] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 11:56:07,201 - root - INFO - user registration dashboard
+2024-06-10 11:56:07,246 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:56:07] "GET /registration HTTP/1.1" 200 -
+2024-06-10 11:56:07,310 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:56:07] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 11:56:11,404 - root - INFO - user is registered
+2024-06-10 11:56:11,405 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:56:11] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-06-10 11:56:11,408 - root - INFO - User login Here
+2024-06-10 11:56:11,434 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:56:11] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 11:56:11,486 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:56:11] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 11:56:25,286 - root - INFO - user registration dashboard
+2024-06-10 11:56:25,288 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:56:25] "GET /registration HTTP/1.1" 200 -
+2024-06-10 11:57:31,440 - root - INFO - email is available
+2024-06-10 11:57:31,440 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:57:31] "POST /registration HTTP/1.1" 200 -
+2024-06-10 11:57:33,607 - root - INFO - user registration dashboard
+2024-06-10 11:57:33,607 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:57:33] "GET /registration HTTP/1.1" 200 -
+2024-06-10 11:57:33,651 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:57:33] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 11:57:37,599 - root - INFO - Id exist
+2024-06-10 11:57:37,599 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:57:37] "POST /registration HTTP/1.1" 200 -
+2024-06-10 11:57:39,826 - root - INFO - user registration dashboard
+2024-06-10 11:57:39,827 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:57:39] "GET /registration HTTP/1.1" 200 -
+2024-06-10 11:57:39,858 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:57:39] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 11:58:30,269 - root - INFO - user is registered
+2024-06-10 11:58:30,269 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:58:30] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-06-10 11:58:30,278 - root - INFO - User login Here
+2024-06-10 11:58:30,278 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:58:30] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 11:58:30,332 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:58:30] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 11:58:50,979 - root - INFO - user registration dashboard
+2024-06-10 11:58:50,980 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:58:50] "GET /registration HTTP/1.1" 200 -
+2024-06-10 11:58:51,024 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:58:51] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 11:58:59,949 - root - INFO - user is registered
+2024-06-10 11:58:59,949 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:58:59] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-06-10 11:58:59,957 - root - INFO - User login Here
+2024-06-10 11:58:59,958 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:58:59] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 11:59:00,016 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 11:59:00] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:01:03,161 - root - INFO - user registration dashboard
+2024-06-10 12:01:03,161 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:01:03] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:01:03,206 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:01:03] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:01:49,375 - root - INFO - user is registered
+2024-06-10 12:01:49,375 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:01:49] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-06-10 12:01:49,383 - root - INFO - User login Here
+2024-06-10 12:01:49,385 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:01:49] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 12:01:49,434 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:01:49] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:07:39,647 - root - INFO - user registration dashboard
+2024-06-10 12:07:39,647 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:07:39] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:07:39,699 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:07:39] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:07:43,100 - root - INFO - user is registered
+2024-06-10 12:07:43,100 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:07:43] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-06-10 12:07:43,112 - root - INFO - User login Here
+2024-06-10 12:07:43,114 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:07:43] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 12:07:43,168 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:07:43] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:08:03,122 - root - INFO - user registration dashboard
+2024-06-10 12:08:03,122 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:08:03] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:08:03,170 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:08:03] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:08:07,785 - root - INFO - user is registered
+2024-06-10 12:08:07,785 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:08:07] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-06-10 12:08:07,793 - root - INFO - User login Here
+2024-06-10 12:08:07,793 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:08:07] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 12:08:07,860 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:08:07] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:11:41,085 - root - INFO - user registration dashboard
+2024-06-10 12:11:41,085 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:41] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:11:42,718 - root - INFO - user registration dashboard
+2024-06-10 12:11:42,718 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:42] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:11:42,788 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:42] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:11:43,749 - root - INFO - user registration dashboard
+2024-06-10 12:11:43,750 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:43] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:11:43,787 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:43] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:11:43,980 - root - INFO - user registration dashboard
+2024-06-10 12:11:43,981 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:43] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:11:44,017 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:44] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:11:44,185 - root - INFO - user registration dashboard
+2024-06-10 12:11:44,185 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:44] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:11:44,226 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:44] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:11:44,402 - root - INFO - user registration dashboard
+2024-06-10 12:11:44,404 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:44] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:11:44,440 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:44] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:11:50,632 - root - INFO - Id exist
+2024-06-10 12:11:50,634 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:50] "POST /registration HTTP/1.1" 200 -
+2024-06-10 12:11:52,311 - root - INFO - user registration dashboard
+2024-06-10 12:11:52,314 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:52] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:11:52,355 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:11:52] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:12:26,658 - root - INFO - user is registered
+2024-06-10 12:12:26,658 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:12:26] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-06-10 12:12:26,669 - root - INFO - User login Here
+2024-06-10 12:12:26,669 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:12:26] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 12:12:26,733 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:12:26] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:13:44,730 - root - INFO - user registration dashboard
+2024-06-10 12:13:44,739 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:13:44] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:13:44,790 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:13:44] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:14:08,460 - root - INFO - user registration dashboard
+2024-06-10 12:14:08,466 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:14:08] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:14:08,509 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:14:08] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:16:45,318 - root - INFO - user registration dashboard
+2024-06-10 12:16:45,360 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:16:45] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:16:45,404 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:16:45] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:17:09,063 - root - INFO - email is available
+2024-06-10 12:17:09,065 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:17:09] "POST /registration HTTP/1.1" 200 -
+2024-06-10 12:17:11,309 - root - INFO - user registration dashboard
+2024-06-10 12:17:11,309 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:17:11] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:17:11,353 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:17:11] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:17:19,995 - root - INFO - user is registered
+2024-06-10 12:17:19,998 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:17:19] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-06-10 12:17:20,006 - root - INFO - User login Here
+2024-06-10 12:17:20,006 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:17:20] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 12:17:20,072 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:17:20] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:17:22,282 - root - INFO - user registration dashboard
+2024-06-10 12:17:22,283 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:17:22] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:17:22,326 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:17:22] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:21:01,516 - root - INFO - user is registered
+2024-06-10 12:21:01,519 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:21:01] "[32mPOST /registration HTTP/1.1[0m" 302 -
+2024-06-10 12:21:01,528 - root - INFO - User login Here
+2024-06-10 12:21:01,529 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:21:01] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 12:21:01,589 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:21:01] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:21:41,991 - root - INFO - user registration dashboard
+2024-06-10 12:21:41,993 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:21:41] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:21:42,040 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:21:42] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 12:50:40,067 - root - INFO - admin dashboard-employee management
+2024-06-10 12:50:40,067 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:50:40] "GET /index HTTP/1.1" 200 -
+2024-06-10 12:50:40,133 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:50:40] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 12:51:01,508 - root - INFO - inserted into employee
+2024-06-10 12:51:01,513 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:51:01] "[32mPOST /insert HTTP/1.1[0m" 302 -
+2024-06-10 12:51:01,542 - root - INFO - admin dashboard-employee management
+2024-06-10 12:51:01,545 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:51:01] "GET /index HTTP/1.1" 200 -
+2024-06-10 12:51:01,588 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:51:01] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 12:51:14,023 - root - INFO - employee deleted
+2024-06-10 12:51:14,023 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:51:14] "[32mGET /delete?id=5 HTTP/1.1[0m" 302 -
+2024-06-10 12:51:14,034 - root - INFO - admin dashboard-employee management
+2024-06-10 12:51:14,037 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:51:14] "GET /index HTTP/1.1" 200 -
+2024-06-10 12:51:14,090 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:51:14] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 12:52:16,209 - root - INFO - user registration dashboard
+2024-06-10 12:52:16,215 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:52:16] "GET /registration HTTP/1.1" 200 -
+2024-06-10 12:52:16,298 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 12:52:16] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 13:01:57,693 - root - INFO - admin dashboard-employee management
+2024-06-10 13:01:57,744 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:01:57] "GET /index HTTP/1.1" 200 -
+2024-06-10 13:01:57,806 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:01:57] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:02:44,991 - root - INFO - Id already available
+2024-06-10 13:02:44,991 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:02:44] "POST /insert HTTP/1.1" 200 -
+2024-06-10 13:02:48,529 - root - INFO - admin dashboard-employee management
+2024-06-10 13:02:48,530 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:02:48] "GET /index HTTP/1.1" 200 -
+2024-06-10 13:02:48,569 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:02:48] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:03:07,775 - root - INFO - inserted into employee
+2024-06-10 13:03:07,776 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:03:07] "[32mPOST /insert HTTP/1.1[0m" 302 -
+2024-06-10 13:03:07,789 - root - INFO - admin dashboard-employee management
+2024-06-10 13:03:07,793 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:03:07] "GET /index HTTP/1.1" 200 -
+2024-06-10 13:03:07,830 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:03:07] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:03:15,004 - root - INFO - employee deleted
+2024-06-10 13:03:15,004 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:03:15] "[32mGET /delete?id=77 HTTP/1.1[0m" 302 -
+2024-06-10 13:03:15,038 - root - INFO - admin dashboard-employee management
+2024-06-10 13:03:15,042 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:03:15] "GET /index HTTP/1.1" 200 -
+2024-06-10 13:03:15,087 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:03:15] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:03:35,592 - root - INFO - Id already available
+2024-06-10 13:03:35,592 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:03:35] "POST /insert HTTP/1.1" 200 -
+2024-06-10 13:03:37,032 - root - INFO - admin dashboard-employee management
+2024-06-10 13:03:37,036 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:03:37] "GET /index HTTP/1.1" 200 -
+2024-06-10 13:03:37,073 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:03:37] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:05:17,463 - root - INFO - inserted into employee
+2024-06-10 13:05:17,463 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:05:17] "[32mPOST /insert HTTP/1.1[0m" 302 -
+2024-06-10 13:05:17,479 - root - INFO - admin dashboard-employee management
+2024-06-10 13:05:17,545 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:05:17] "GET /index HTTP/1.1" 200 -
+2024-06-10 13:05:17,578 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:05:17] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:05:24,520 - root - INFO - employee deleted
+2024-06-10 13:05:24,520 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:05:24] "[32mGET /delete?id=5 HTTP/1.1[0m" 302 -
+2024-06-10 13:05:24,534 - root - INFO - admin dashboard-employee management
+2024-06-10 13:05:24,536 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:05:24] "GET /index HTTP/1.1" 200 -
+2024-06-10 13:05:24,586 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:05:24] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:07:36,425 - root - INFO - admin dashboard-employee management
+2024-06-10 13:07:36,425 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:07:36] "GET /index HTTP/1.1" 200 -
+2024-06-10 13:07:36,465 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:07:36] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:08:30,517 - root - INFO - Inventory dashboard
+2024-06-10 13:08:30,517 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:08:30] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 13:08:30,556 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:08:30] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:14:28,947 - root - INFO - Inventory dashboard
+2024-06-10 13:14:28,991 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:14:28] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 13:14:29,039 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:14:29] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:15:06,995 - root - INFO - Id already available
+2024-06-10 13:15:06,995 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:15:06] "POST /insert1 HTTP/1.1" 200 -
+2024-06-10 13:15:08,775 - root - INFO - Inventory dashboard
+2024-06-10 13:15:08,776 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:15:08] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 13:15:08,819 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:15:08] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:17:06,299 - root - INFO - Inventory dashboard
+2024-06-10 13:17:06,346 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:06] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 13:17:06,388 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:06] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:17:14,655 - root - INFO - admin dashboard-employee management
+2024-06-10 13:17:14,661 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:14] "GET /index HTTP/1.1" 200 -
+2024-06-10 13:17:14,709 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:14] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:17:19,608 - root - INFO - Inventory dashboard
+2024-06-10 13:17:19,608 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:19] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 13:17:19,658 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:19] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 13:17:32,961 - root - INFO - update inventory item
+2024-06-10 13:17:33,013 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:33] "GET /update2?id=A03 HTTP/1.1" 200 -
+2024-06-10 13:17:36,578 - root - INFO - Item updated
+2024-06-10 13:17:36,578 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:36] "[32mPOST /update2?id=A03 HTTP/1.1[0m" 302 -
+2024-06-10 13:17:36,613 - root - INFO - Inventory dashboard
+2024-06-10 13:17:36,615 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:36] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 13:17:36,669 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 13:17:36] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 18:35:04,547 - root - INFO - admin dashboard-employee management
+2024-06-10 18:35:04,558 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 18:35:04] "GET /index HTTP/1.1" 200 -
+2024-06-10 18:35:04,581 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 18:35:04] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 18:35:06,131 - root - INFO - Inventory assign dashboard
+2024-06-10 18:35:06,133 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 18:35:06] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-10 19:21:59,994 - root - INFO - Inventory assign dashboard
+2024-06-10 19:21:59,997 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 19:21:59] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-10 19:22:03,754 - root - INFO - Landing page accessed
+2024-06-10 19:22:03,756 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 19:22:03] "GET / HTTP/1.1" 200 -
+2024-06-10 19:22:03,809 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 19:22:03] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:11:32,933 - root - INFO - Landing page accessed
+2024-06-10 20:11:32,951 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:11:32] "GET / HTTP/1.1" 200 -
+2024-06-10 20:11:32,972 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:11:32] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:11:55,109 - root - INFO - Landing page accessed
+2024-06-10 20:11:55,112 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:11:55] "GET / HTTP/1.1" 200 -
+2024-06-10 20:11:55,132 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:11:55] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:17:01,992 - root - INFO - Landing page accessed
+2024-06-10 20:17:02,009 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:17:02] "GET / HTTP/1.1" 200 -
+2024-06-10 20:17:02,029 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:17:02] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:17:17,180 - root - INFO - Landing page accessed
+2024-06-10 20:17:17,182 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:17:17] "GET / HTTP/1.1" 200 -
+2024-06-10 20:17:17,200 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:17:17] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:22:30,926 - root - INFO - Landing page accessed
+2024-06-10 20:22:30,936 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:30] "GET / HTTP/1.1" 200 -
+2024-06-10 20:22:30,953 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:30] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:22:31,951 - root - INFO - Landing page accessed
+2024-06-10 20:22:31,951 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:31] "GET / HTTP/1.1" 200 -
+2024-06-10 20:22:31,968 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:31] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:22:32,660 - root - INFO - Landing page accessed
+2024-06-10 20:22:32,661 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:32] "GET / HTTP/1.1" 200 -
+2024-06-10 20:22:32,677 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:32] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:22:33,243 - root - INFO - Landing page accessed
+2024-06-10 20:22:33,251 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:33] "GET / HTTP/1.1" 200 -
+2024-06-10 20:22:33,267 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:33] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:22:33,439 - root - INFO - Landing page accessed
+2024-06-10 20:22:33,439 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:33] "GET / HTTP/1.1" 200 -
+2024-06-10 20:22:33,456 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:33] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:22:33,660 - root - INFO - Landing page accessed
+2024-06-10 20:22:33,661 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:33] "GET / HTTP/1.1" 200 -
+2024-06-10 20:22:33,678 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:33] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:22:41,047 - root - INFO - Landing page accessed
+2024-06-10 20:22:41,050 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:41] "GET / HTTP/1.1" 200 -
+2024-06-10 20:22:41,068 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:41] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:22:41,840 - root - INFO - Landing page accessed
+2024-06-10 20:22:41,840 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:41] "GET / HTTP/1.1" 200 -
+2024-06-10 20:22:41,864 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:22:41] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:24:15,859 - root - INFO - Landing page accessed
+2024-06-10 20:24:15,877 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:24:15] "GET / HTTP/1.1" 200 -
+2024-06-10 20:24:15,893 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:24:15] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:24:23,127 - root - INFO - Landing page accessed
+2024-06-10 20:24:23,130 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:24:23] "GET / HTTP/1.1" 200 -
+2024-06-10 20:24:23,146 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:24:23] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:27:51,594 - root - INFO - Landing page accessed
+2024-06-10 20:27:51,604 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:27:51] "GET / HTTP/1.1" 200 -
+2024-06-10 20:27:51,622 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:27:51] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:28:02,286 - root - INFO - Landing page accessed
+2024-06-10 20:28:02,289 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:28:02] "GET / HTTP/1.1" 200 -
+2024-06-10 20:28:02,305 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:28:02] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:28:23,078 - root - INFO - Landing page accessed
+2024-06-10 20:28:23,090 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:28:23] "GET / HTTP/1.1" 200 -
+2024-06-10 20:28:23,106 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:28:23] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:28:35,440 - root - INFO - Landing page accessed
+2024-06-10 20:28:35,442 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:28:35] "GET / HTTP/1.1" 200 -
+2024-06-10 20:28:35,459 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:28:35] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-10 20:29:57,376 - root - INFO - User login Here
+2024-06-10 20:29:57,378 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:29:57] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 20:29:57,408 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:29:57] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 20:46:39,397 - root - INFO - User login Here
+2024-06-10 20:46:39,411 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:46:39] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 20:46:39,448 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:46:39] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 20:46:58,895 - root - INFO - User login Here
+2024-06-10 20:46:58,904 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:46:58] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 20:46:58,922 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:46:58] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 20:47:07,270 - root - INFO - User login Here
+2024-06-10 20:47:07,287 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:47:07] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 20:47:07,304 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:47:07] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 20:47:22,554 - root - INFO - User login Here
+2024-06-10 20:47:22,557 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:47:22] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 20:47:22,576 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:47:22] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 20:49:30,431 - root - INFO - User login Here
+2024-06-10 20:49:30,445 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:49:30] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 20:49:30,465 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:49:30] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 20:49:41,411 - root - INFO - User login Here
+2024-06-10 20:49:41,414 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:49:41] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 20:49:41,435 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 20:49:41] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 22:01:22,199 - root - INFO - User login Here
+2024-06-10 22:01:22,209 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:01:22] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 22:01:22,331 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:01:22] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 22:17:30,926 - root - INFO - User login Here
+2024-06-10 22:17:30,972 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:17:30] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 22:17:31,057 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:17:31] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 22:17:42,835 - root - INFO - User login Here
+2024-06-10 22:17:42,846 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:17:42] "GET /userlogin HTTP/1.1" 200 -
+2024-06-10 22:17:42,898 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:17:42] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 22:21:28,157 - root - INFO - user registration dashboard
+2024-06-10 22:21:28,252 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:21:28] "GET /registration HTTP/1.1" 200 -
+2024-06-10 22:21:28,361 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:21:28] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 22:26:40,160 - root - INFO - admin login
+2024-06-10 22:26:40,175 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:26:40] "GET /admin HTTP/1.1" 200 -
+2024-06-10 22:26:40,228 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:26:40] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 22:29:08,646 - root - INFO - admin register form
+2024-06-10 22:29:08,649 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:29:08] "GET /adminsignup HTTP/1.1" 200 -
+2024-06-10 22:29:08,719 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:29:08] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 22:33:13,999 - root - INFO - registered-admin
+2024-06-10 22:33:14,000 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:33:14] "[32mPOST /adminsignup HTTP/1.1[0m" 302 -
+2024-06-10 22:33:14,026 - root - INFO - admin login
+2024-06-10 22:33:14,029 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:33:14] "GET /admin HTTP/1.1" 200 -
+2024-06-10 22:33:14,157 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:33:14] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 22:33:22,368 - root - INFO - admin register form
+2024-06-10 22:33:22,410 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:33:22] "GET /adminsignup HTTP/1.1" 200 -
+2024-06-10 22:33:22,460 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:33:22] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-10 22:35:34,375 - root - INFO - admin dashboard-employee management
+2024-06-10 22:35:34,377 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:35:34] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:35:34,437 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:35:34] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 22:37:09,281 - root - INFO - admin dashboard-employee management
+2024-06-10 22:37:09,343 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:37:09] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:37:15,317 - root - INFO - admin dashboard-employee management
+2024-06-10 22:37:15,317 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:37:15] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:37:24,921 - root - INFO - update dashboard
+2024-06-10 22:37:24,974 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:37:24] "GET /update?id=6 HTTP/1.1" 200 -
+2024-06-10 22:37:27,324 - root - INFO - admin dashboard-employee management
+2024-06-10 22:37:27,327 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:37:27] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:37:31,490 - root - INFO - Inventory assign dashboard
+2024-06-10 22:37:31,490 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:37:31] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-10 22:37:34,463 - root - INFO - Inventory dashboard
+2024-06-10 22:37:34,464 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:37:34] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 22:37:34,519 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:37:34] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 22:38:03,096 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:03,145 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:03] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:04,128 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:04,132 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:04] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:04,800 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:04,800 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:04] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:05,028 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:05,028 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:05] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:05,183 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:05,183 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:05] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:05,401 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:05,401 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:05] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:05,613 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:05,613 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:05] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:12,170 - root - INFO - update dashboard
+2024-06-10 22:38:12,170 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:12] "GET /update?id=6 HTTP/1.1" 200 -
+2024-06-10 22:38:13,893 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:13,893 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:13] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:15,472 - root - INFO - update dashboard
+2024-06-10 22:38:15,472 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:15] "GET /update?id=11 HTTP/1.1" 200 -
+2024-06-10 22:38:17,106 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:17,107 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:17] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:21,694 - root - INFO - Inventory dashboard
+2024-06-10 22:38:21,694 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:21] "GET /index1 HTTP/1.1" 200 -
+2024-06-10 22:38:21,742 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:21] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-10 22:38:22,826 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:22,826 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:22] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:38:36,275 - root - INFO - admin dashboard-employee management
+2024-06-10 22:38:36,339 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:38:36] "GET /index HTTP/1.1" 200 -
+2024-06-10 22:58:49,192 - root - INFO - admin dashboard-employee management
+2024-06-10 22:58:49,267 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 22:58:49] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:00:30,580 - root - INFO - admin dashboard-employee management
+2024-06-10 23:00:30,634 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:00:30] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:02:21,435 - root - INFO - admin dashboard-employee management
+2024-06-10 23:02:21,487 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:02:21] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:02:41,672 - root - INFO - admin dashboard-employee management
+2024-06-10 23:02:41,726 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:02:41] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:03:49,303 - root - INFO - admin dashboard-employee management
+2024-06-10 23:03:49,366 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:03:49] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:03:57,458 - root - INFO - admin dashboard-employee management
+2024-06-10 23:03:57,513 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:03:57] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:11:39,638 - root - INFO - admin dashboard-employee management
+2024-06-10 23:11:39,711 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:11:39] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:11:45,447 - root - INFO - admin dashboard-employee management
+2024-06-10 23:11:45,506 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:11:45] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:11:56,912 - root - INFO - admin dashboard-employee management
+2024-06-10 23:11:56,962 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:11:56] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:11:58,028 - root - INFO - admin dashboard-employee management
+2024-06-10 23:11:58,028 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:11:58] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:12:00,756 - root - INFO - admin dashboard-employee management
+2024-06-10 23:12:00,756 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:12:00] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:12:11,388 - root - INFO - admin dashboard-employee management
+2024-06-10 23:12:11,437 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:12:11] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:12:12,416 - root - INFO - admin dashboard-employee management
+2024-06-10 23:12:12,422 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:12:12] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:12:12,638 - root - INFO - admin dashboard-employee management
+2024-06-10 23:12:12,640 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:12:12] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:15:16,473 - root - INFO - admin dashboard-employee management
+2024-06-10 23:15:16,524 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:15:16] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:15:29,583 - root - INFO - admin dashboard-employee management
+2024-06-10 23:15:29,630 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:15:29] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:15:44,259 - root - INFO - admin dashboard-employee management
+2024-06-10 23:15:44,298 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:15:44] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:16:02,360 - root - INFO - admin dashboard-employee management
+2024-06-10 23:16:02,401 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:16:02] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:16:21,179 - root - INFO - admin dashboard-employee management
+2024-06-10 23:16:21,226 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:16:21] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:16:50,197 - root - INFO - admin dashboard-employee management
+2024-06-10 23:16:50,250 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:16:50] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:21:07,995 - root - INFO - admin dashboard-employee management
+2024-06-10 23:21:08,051 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:21:08] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:21:16,600 - root - INFO - admin dashboard-employee management
+2024-06-10 23:21:16,643 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:21:16] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:21:24,436 - root - INFO - admin dashboard-employee management
+2024-06-10 23:21:24,481 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:21:24] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:21:57,119 - root - INFO - admin dashboard-employee management
+2024-06-10 23:21:57,165 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:21:57] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:22:16,840 - root - INFO - admin dashboard-employee management
+2024-06-10 23:22:16,884 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:22:16] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:37:04,323 - root - INFO - admin dashboard-employee management
+2024-06-10 23:37:04,388 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:37:04] "GET /index HTTP/1.1" 200 -
+2024-06-10 23:37:13,209 - root - INFO - admin dashboard-employee management
+2024-06-10 23:37:13,251 - werkzeug - INFO - 127.0.0.1 - - [10/Jun/2024 23:37:13] "GET /index HTTP/1.1" 200 -
+2024-06-11 00:13:21,503 - root - INFO - admin dashboard-employee management
+2024-06-11 00:13:21,582 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 00:13:21] "GET /index HTTP/1.1" 200 -
+2024-06-11 00:38:00,682 - root - INFO - Inventory dashboard
+2024-06-11 00:38:00,732 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 00:38:00] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 00:38:08,233 - root - INFO - admin dashboard-employee management
+2024-06-11 00:38:08,236 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 00:38:08] "GET /index HTTP/1.1" 200 -
+2024-06-11 00:38:13,071 - root - INFO - Inventory dashboard
+2024-06-11 00:38:13,071 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 00:38:13] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 00:39:39,325 - root - INFO - admin dashboard-employee management
+2024-06-11 00:39:39,325 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 00:39:39] "GET /index HTTP/1.1" 200 -
+2024-06-11 00:39:41,071 - root - INFO - update dashboard
+2024-06-11 00:39:41,075 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 00:39:41] "GET /update?id=6 HTTP/1.1" 200 -
+2024-06-11 01:17:26,494 - root - INFO - update dashboard
+2024-06-11 01:17:26,548 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:17:26] "GET /update?id=6 HTTP/1.1" 200 -
+2024-06-11 01:18:05,126 - root - INFO - update dashboard
+2024-06-11 01:18:05,154 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:18:05] "GET /update?id=6 HTTP/1.1" 200 -
+2024-06-11 01:18:19,004 - root - INFO - employee updated
+2024-06-11 01:18:19,004 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:18:19] "[32mPOST /update?id=6 HTTP/1.1[0m" 302 -
+2024-06-11 01:18:19,040 - root - INFO - admin dashboard-employee management
+2024-06-11 01:18:19,040 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:18:19] "GET /index HTTP/1.1" 200 -
+2024-06-11 01:18:21,264 - root - INFO - update dashboard
+2024-06-11 01:18:21,264 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:18:21] "GET /update?id=6 HTTP/1.1" 200 -
+2024-06-11 01:19:57,008 - root - INFO - admin dashboard-employee management
+2024-06-11 01:19:57,017 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:19:57] "GET /index HTTP/1.1" 200 -
+2024-06-11 01:20:03,363 - root - INFO - Inventory dashboard
+2024-06-11 01:20:03,363 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:20:03] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:20:04,810 - root - INFO - admin dashboard-employee management
+2024-06-11 01:20:04,810 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:20:04] "GET /index HTTP/1.1" 200 -
+2024-06-11 01:20:05,764 - root - INFO - Inventory dashboard
+2024-06-11 01:20:05,764 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:20:05] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:20:47,294 - root - INFO - admin dashboard-employee management
+2024-06-11 01:20:47,296 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:20:47] "GET /index HTTP/1.1" 200 -
+2024-06-11 01:20:49,293 - root - INFO - Inventory dashboard
+2024-06-11 01:20:49,293 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:20:49] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:21:00,161 - root - INFO - Inventory dashboard
+2024-06-11 01:21:00,212 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:21:00] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:21:02,811 - root - INFO - admin dashboard-employee management
+2024-06-11 01:21:02,814 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:21:02] "GET /index HTTP/1.1" 200 -
+2024-06-11 01:21:03,805 - root - INFO - Inventory dashboard
+2024-06-11 01:21:03,807 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:21:03] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:21:07,974 - root - INFO - update inventory item
+2024-06-11 01:21:07,976 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:21:07] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:21:19,675 - root - INFO - Inventory dashboard
+2024-06-11 01:21:19,675 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:21:19] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:21:24,145 - root - INFO - update inventory item
+2024-06-11 01:21:24,145 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:21:24] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:22:09,855 - root - INFO - update inventory item
+2024-06-11 01:22:09,896 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:09] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:22:10,911 - root - INFO - update inventory item
+2024-06-11 01:22:10,912 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:10] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:22:15,042 - root - INFO - Inventory dashboard
+2024-06-11 01:22:15,044 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:15] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:22:16,973 - root - INFO - update inventory item
+2024-06-11 01:22:16,973 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:16] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:22:20,905 - root - INFO - Item updated
+2024-06-11 01:22:20,905 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:20] "[32mPOST /update2?id=A02 HTTP/1.1[0m" 302 -
+2024-06-11 01:22:20,921 - root - INFO - Inventory dashboard
+2024-06-11 01:22:20,921 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:20] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:22:23,589 - root - INFO - update inventory item
+2024-06-11 01:22:23,590 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:23] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:22:28,775 - root - INFO - Item updated
+2024-06-11 01:22:28,775 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:28] "[32mPOST /update2?id=A02 HTTP/1.1[0m" 302 -
+2024-06-11 01:22:28,802 - root - INFO - Inventory dashboard
+2024-06-11 01:22:28,802 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:28] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:22:30,563 - root - INFO - update inventory item
+2024-06-11 01:22:30,565 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:30] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:22:35,708 - root - INFO - Item updated
+2024-06-11 01:22:35,708 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:35] "[32mPOST /update2?id=A02 HTTP/1.1[0m" 302 -
+2024-06-11 01:22:35,729 - root - INFO - Inventory dashboard
+2024-06-11 01:22:35,732 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:35] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:22:38,037 - root - INFO - update inventory item
+2024-06-11 01:22:38,037 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:38] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:22:49,835 - root - INFO - Item updated
+2024-06-11 01:22:49,835 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:49] "[32mPOST /update2?id=A02 HTTP/1.1[0m" 302 -
+2024-06-11 01:22:49,853 - root - INFO - Inventory dashboard
+2024-06-11 01:22:49,858 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:49] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:22:52,714 - root - INFO - update inventory item
+2024-06-11 01:22:52,714 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:22:52] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:27:17,647 - root - INFO - update inventory item
+2024-06-11 01:27:17,648 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:27:17] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:27:19,437 - root - INFO - update inventory item
+2024-06-11 01:27:19,439 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:27:19] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:28:09,443 - root - INFO - update inventory item
+2024-06-11 01:28:09,482 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:28:09] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:28:10,609 - root - INFO - update inventory item
+2024-06-11 01:28:10,609 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:28:10] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:28:16,056 - root - INFO - Inventory dashboard
+2024-06-11 01:28:16,056 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:28:16] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:28:18,051 - root - INFO - admin dashboard-employee management
+2024-06-11 01:28:18,051 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:28:18] "GET /index HTTP/1.1" 200 -
+2024-06-11 01:29:01,401 - root - INFO - Inventory dashboard
+2024-06-11 01:29:01,407 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:29:01] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:29:03,987 - root - INFO - update inventory item
+2024-06-11 01:29:04,019 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:29:04] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:29:06,265 - root - INFO - update inventory item
+2024-06-11 01:29:06,265 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:29:06] "GET /update2?id=A02 HTTP/1.1" 200 -
+2024-06-11 01:32:22,675 - root - INFO - Inventory dashboard
+2024-06-11 01:32:22,676 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:32:22] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 01:32:25,387 - root - INFO - Inventory assign dashboard
+2024-06-11 01:32:25,387 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:32:25] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 01:41:21,507 - root - INFO - Inventory assign dashboard
+2024-06-11 01:41:21,534 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:41:21] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 01:41:23,844 - root - INFO - Inventory assign dashboard
+2024-06-11 01:41:23,852 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:41:23] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 01:41:26,305 - root - INFO - Item is already assigned
+2024-06-11 01:41:26,305 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:41:26] "POST /allocateinventory HTTP/1.1" 200 -
+2024-06-11 01:41:27,774 - root - INFO - Inventory assign dashboard
+2024-06-11 01:41:27,776 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:41:27] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 01:41:30,756 - root - INFO - Item is unassigned
+2024-06-11 01:41:30,758 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:41:30] "[32mGET /returnproduct?id=honey@nucleusteq.com&product=Laptop%20charger HTTP/1.1[0m" 302 -
+2024-06-11 01:41:30,793 - root - INFO - Inventory assign dashboard
+2024-06-11 01:41:30,797 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:41:30] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 01:41:33,010 - root - INFO - Item assigned
+2024-06-11 01:41:33,010 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:41:33] "[32mPOST /allocateinventory HTTP/1.1[0m" 302 -
+2024-06-11 01:41:33,054 - root - INFO - Inventory assign dashboard
+2024-06-11 01:41:33,054 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 01:41:33] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 11:36:01,775 - root - INFO - Landing page accessed
+2024-06-11 11:36:01,777 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:01] "GET / HTTP/1.1" 200 -
+2024-06-11 11:36:01,838 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:01] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-11 11:36:03,613 - root - INFO - User login Here
+2024-06-11 11:36:03,613 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:03] "GET /userlogin HTTP/1.1" 200 -
+2024-06-11 11:36:03,649 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:03] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 11:36:25,086 - root - INFO - user dashboard accessed
+2024-06-11 11:36:25,096 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:25] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 11:36:25,126 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:25] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 11:36:25,126 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:25] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 11:36:53,513 - root - INFO - user dashboard accessed
+2024-06-11 11:36:53,525 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:53] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 11:36:53,544 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:53] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 11:36:53,551 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:36:53] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 11:51:49,226 - root - INFO - user dashboard accessed
+2024-06-11 11:51:49,239 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:51:49] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 11:51:49,276 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:51:49] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 11:51:49,277 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:51:49] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 11:55:43,170 - root - INFO - user dashboard accessed
+2024-06-11 11:55:43,181 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:55:43] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 11:55:43,220 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:55:43] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 11:55:43,220 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:55:43] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 11:58:33,757 - root - INFO - user dashboard accessed
+2024-06-11 11:58:33,760 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:58:33] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 11:58:33,772 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:58:33] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 11:58:33,779 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:58:33] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 11:58:37,939 - root - INFO - user dashboard accessed
+2024-06-11 11:58:37,939 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:58:37] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 11:58:37,960 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:58:37] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 11:58:37,961 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 11:58:37] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:00:28,440 - root - INFO - user dashboard accessed
+2024-06-11 12:00:28,440 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:00:28] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:00:28,462 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:00:28] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:00:28,462 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:00:28] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:00:32,364 - root - INFO - user dashboard accessed
+2024-06-11 12:00:32,364 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:00:32] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:00:32,380 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:00:32] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:00:32,381 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:00:32] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:02:40,531 - root - INFO - user dashboard accessed
+2024-06-11 12:02:40,543 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:02:40] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:02:40,562 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:02:40] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:02:40,562 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:02:40] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:03:11,053 - root - INFO - Landing page accessed
+2024-06-11 12:03:11,054 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:03:11] "GET / HTTP/1.1" 200 -
+2024-06-11 12:03:11,071 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:03:11] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-11 12:04:07,804 - root - INFO - User login Here
+2024-06-11 12:04:07,804 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:04:07] "GET /userlogin HTTP/1.1" 200 -
+2024-06-11 12:04:07,829 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:04:07] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 12:04:15,978 - root - INFO - user dashboard accessed
+2024-06-11 12:04:15,989 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:04:15] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:04:16,002 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:04:16] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:04:16,007 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:04:16] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:04:47,492 - root - INFO - user dashboard accessed
+2024-06-11 12:04:47,505 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:04:47] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:04:47,522 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:04:47] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:04:47,522 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:04:47] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:06:18,271 - root - INFO - user dashboard accessed
+2024-06-11 12:06:18,272 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:06:18] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:06:18,288 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:06:18] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:06:18,289 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:06:18] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:06:21,723 - root - INFO - user dashboard accessed
+2024-06-11 12:06:21,723 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:06:21] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:06:21,739 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:06:21] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:06:21,741 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:06:21] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:07:05,255 - root - INFO - user dashboard accessed
+2024-06-11 12:07:05,265 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:07:05] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:07:05,282 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:07:05] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:07:05,283 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:07:05] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:07:08,541 - root - INFO - user dashboard accessed
+2024-06-11 12:07:08,541 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:07:08] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:07:08,556 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:07:08] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:07:08,561 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:07:08] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:09:54,289 - root - INFO - user dashboard accessed
+2024-06-11 12:09:54,295 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:09:54] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:09:54,311 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:09:54] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:09:54,314 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:09:54] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:09:57,656 - root - INFO - user dashboard accessed
+2024-06-11 12:09:57,656 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:09:57] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:09:57,668 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:09:57] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:09:57,675 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:09:57] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:11:01,332 - root - INFO - user dashboard accessed
+2024-06-11 12:11:01,334 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:11:01] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:11:01,354 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:11:01] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:11:01,354 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:11:01] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:16:45,406 - root - INFO - user dashboard accessed
+2024-06-11 12:16:45,418 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:16:45] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:16:45,464 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:16:45] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:16:45,464 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:16:45] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:16:57,938 - root - INFO - user dashboard accessed
+2024-06-11 12:16:57,941 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:16:57] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:16:57,956 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:16:57] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:16:57,960 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:16:57] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:17:11,752 - root - INFO - user dashboard accessed
+2024-06-11 12:17:11,754 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:17:11] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:17:11,776 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:17:11] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:17:11,785 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:17:11] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:17:56,741 - root - INFO - user dashboard accessed
+2024-06-11 12:17:56,741 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:17:56] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:17:56,776 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:17:56] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:17:56,776 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:17:56] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:20:13,084 - root - INFO - user dashboard accessed
+2024-06-11 12:20:13,085 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:20:13] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:20:13,098 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:20:13] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:20:13,098 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:20:13] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:24:37,118 - root - INFO - user dashboard accessed
+2024-06-11 12:24:37,121 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:24:37] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:24:37,158 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:24:37] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:24:37,159 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:24:37] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:27:23,996 - root - INFO - user dashboard accessed
+2024-06-11 12:27:24,005 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:27:24] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:27:24,021 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:27:24] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:27:24,023 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:27:24] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:27:46,773 - root - INFO - user dashboard accessed
+2024-06-11 12:27:46,777 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:27:46] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:27:46,790 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:27:46] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:27:46,795 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:27:46] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:28:02,884 - root - INFO - user dashboard accessed
+2024-06-11 12:28:02,886 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:28:02] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:28:02,899 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:28:02] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:28:02,905 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:28:02] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:29:11,363 - root - INFO - user dashboard accessed
+2024-06-11 12:29:11,373 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:29:11] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:29:11,391 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:29:11] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:29:11,391 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:29:11] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:30:04,170 - root - INFO - user dashboard accessed
+2024-06-11 12:30:04,180 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:30:04] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:30:04,195 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:30:04] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:30:04,197 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:30:04] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:30:24,916 - root - INFO - user dashboard accessed
+2024-06-11 12:30:24,927 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:30:24] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:30:24,940 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:30:24] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:30:24,945 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:30:24] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:32:08,750 - root - INFO - user dashboard accessed
+2024-06-11 12:32:08,764 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:32:08] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:32:08,781 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:32:08] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:32:08,785 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:32:08] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:32:51,309 - root - INFO - user dashboard accessed
+2024-06-11 12:32:51,320 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:32:51] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:32:51,332 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:32:51] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:32:51,337 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:32:51] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:33:59,398 - root - INFO - user dashboard accessed
+2024-06-11 12:33:59,412 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:33:59] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:33:59,428 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:33:59] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:33:59,431 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:33:59] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:34:03,351 - root - INFO - user dashboard accessed
+2024-06-11 12:34:03,351 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:34:03] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:34:03,365 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:34:03] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:34:03,371 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:34:03] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:35:08,786 - root - INFO - user dashboard accessed
+2024-06-11 12:35:08,786 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:35:08] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:35:08,798 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:35:08] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:35:08,803 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:35:08] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:35:32,354 - root - INFO - user dashboard accessed
+2024-06-11 12:35:32,365 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:35:32] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:35:32,380 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:35:32] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:35:32,385 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:35:32] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:35:35,816 - root - INFO - user dashboard accessed
+2024-06-11 12:35:35,816 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:35:35] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:35:35,830 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:35:35] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:35:35,835 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:35:35] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:36:05,350 - root - INFO - user dashboard accessed
+2024-06-11 12:36:05,365 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:36:05] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:36:05,392 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:36:05] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:36:05,392 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:36:05] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:36:23,769 - root - INFO - user dashboard accessed
+2024-06-11 12:36:23,779 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:36:23] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:36:23,794 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:36:23] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:36:23,796 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:36:23] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:36:29,491 - root - INFO - user dashboard accessed
+2024-06-11 12:36:29,491 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:36:29] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:36:29,508 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:36:29] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:36:29,511 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:36:29] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:38:19,598 - root - INFO - user dashboard accessed
+2024-06-11 12:38:19,609 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:38:19] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 12:38:19,625 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:38:19] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 12:38:19,625 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:38:19] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 12:38:37,873 - root - INFO - Landing page accessed
+2024-06-11 12:38:37,873 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:38:37] "GET / HTTP/1.1" 200 -
+2024-06-11 12:38:37,894 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 12:38:37] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-11 14:24:13,304 - root - INFO - admin dashboard-employee management
+2024-06-11 14:24:13,307 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:24:13] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:24:23,170 - root - INFO - employee deleted
+2024-06-11 14:24:23,172 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:24:23] "[32mGET /delete?id=6 HTTP/1.1[0m" 302 -
+2024-06-11 14:24:23,192 - root - INFO - admin dashboard-employee management
+2024-06-11 14:24:23,193 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:24:23] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:25:06,151 - root - INFO - inserted into employee
+2024-06-11 14:25:06,155 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:25:06] "[32mPOST /insert HTTP/1.1[0m" 302 -
+2024-06-11 14:25:06,177 - root - INFO - admin dashboard-employee management
+2024-06-11 14:25:06,178 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:25:06] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:25:11,814 - root - INFO - employee deleted
+2024-06-11 14:25:11,814 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:25:11] "[32mGET /delete?id=11 HTTP/1.1[0m" 302 -
+2024-06-11 14:25:11,837 - root - INFO - admin dashboard-employee management
+2024-06-11 14:25:11,838 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:25:11] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:26:11,194 - root - INFO - inserted into employee
+2024-06-11 14:26:11,194 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:26:11] "[32mPOST /insert HTTP/1.1[0m" 302 -
+2024-06-11 14:26:11,215 - root - INFO - admin dashboard-employee management
+2024-06-11 14:26:11,215 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:26:11] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:27:21,561 - root - INFO - inserted into employee
+2024-06-11 14:27:21,562 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:27:21] "[32mPOST /insert HTTP/1.1[0m" 302 -
+2024-06-11 14:27:21,583 - root - INFO - admin dashboard-employee management
+2024-06-11 14:27:21,584 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:27:21] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:28:09,605 - root - INFO - inserted into employee
+2024-06-11 14:28:09,605 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:28:09] "[32mPOST /insert HTTP/1.1[0m" 302 -
+2024-06-11 14:28:09,616 - root - INFO - admin dashboard-employee management
+2024-06-11 14:28:09,616 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:28:09] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:28:17,724 - root - INFO - update dashboard
+2024-06-11 14:28:17,731 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:28:17] "GET /update?id=2 HTTP/1.1" 200 -
+2024-06-11 14:28:22,394 - root - INFO - employee updated
+2024-06-11 14:28:22,394 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:28:22] "[32mPOST /update?id=2 HTTP/1.1[0m" 302 -
+2024-06-11 14:28:22,414 - root - INFO - admin dashboard-employee management
+2024-06-11 14:28:22,415 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:28:22] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:28:31,713 - root - INFO - Inventory assign dashboard
+2024-06-11 14:28:31,714 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:28:31] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:28:45,816 - root - INFO - Inventory dashboard
+2024-06-11 14:28:45,816 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:28:45] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 14:29:25,459 - root - INFO - Item added
+2024-06-11 14:29:25,460 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:29:25] "[32mPOST /insert1 HTTP/1.1[0m" 302 -
+2024-06-11 14:29:25,486 - root - INFO - Inventory dashboard
+2024-06-11 14:29:25,487 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:29:25] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 14:29:30,162 - root - INFO - deleted from inventory
+2024-06-11 14:29:30,163 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:29:30] "[32mGET /deleteinvt?id=A03 HTTP/1.1[0m" 302 -
+2024-06-11 14:29:30,179 - root - INFO - Inventory dashboard
+2024-06-11 14:29:30,179 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:29:30] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 14:29:33,144 - root - INFO - deleted from inventory
+2024-06-11 14:29:33,144 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:29:33] "[32mGET /deleteinvt?id=A02 HTTP/1.1[0m" 302 -
+2024-06-11 14:29:33,150 - root - INFO - Inventory dashboard
+2024-06-11 14:29:33,151 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:29:33] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 14:29:35,914 - root - INFO - update inventory item
+2024-06-11 14:29:35,914 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:29:35] "GET /update2?id=P01 HTTP/1.1" 200 -
+2024-06-11 14:29:38,784 - root - INFO - Inventory dashboard
+2024-06-11 14:29:38,784 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:29:38] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 14:30:06,240 - root - INFO - Item added
+2024-06-11 14:30:06,240 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:30:06] "[32mPOST /insert1 HTTP/1.1[0m" 302 -
+2024-06-11 14:30:06,245 - root - INFO - Inventory dashboard
+2024-06-11 14:30:06,246 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:30:06] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 14:31:28,487 - root - INFO - Item added
+2024-06-11 14:31:28,487 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:31:28] "[32mPOST /insert1 HTTP/1.1[0m" 302 -
+2024-06-11 14:31:28,513 - root - INFO - Inventory dashboard
+2024-06-11 14:31:28,514 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:31:28] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 14:32:22,064 - root - INFO - Item added
+2024-06-11 14:32:22,064 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:22] "[32mPOST /insert1 HTTP/1.1[0m" 302 -
+2024-06-11 14:32:22,084 - root - INFO - Inventory dashboard
+2024-06-11 14:32:22,084 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:22] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 14:32:26,930 - root - INFO - Inventory assign dashboard
+2024-06-11 14:32:26,930 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:26] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:32:30,688 - root - INFO - Item assigned
+2024-06-11 14:32:30,688 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:30] "[32mPOST /allocateinventory HTTP/1.1[0m" 302 -
+2024-06-11 14:32:30,730 - root - INFO - Inventory assign dashboard
+2024-06-11 14:32:30,731 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:30] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:32:32,673 - root - INFO - Item is already assigned
+2024-06-11 14:32:32,673 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:32] "POST /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:32:34,045 - root - INFO - Inventory assign dashboard
+2024-06-11 14:32:34,047 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:34] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:32:38,080 - root - INFO - Item assigned
+2024-06-11 14:32:38,080 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:38] "[32mPOST /allocateinventory HTTP/1.1[0m" 302 -
+2024-06-11 14:32:38,132 - root - INFO - Inventory assign dashboard
+2024-06-11 14:32:38,133 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:38] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:32:44,640 - root - INFO - Item assigned
+2024-06-11 14:32:44,640 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:44] "[32mPOST /allocateinventory HTTP/1.1[0m" 302 -
+2024-06-11 14:32:44,686 - root - INFO - Inventory assign dashboard
+2024-06-11 14:32:44,686 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:44] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:32:50,972 - root - INFO - Item assigned
+2024-06-11 14:32:50,972 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:50] "[32mPOST /allocateinventory HTTP/1.1[0m" 302 -
+2024-06-11 14:32:50,979 - root - INFO - Inventory assign dashboard
+2024-06-11 14:32:50,980 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:32:50] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:33:01,416 - root - INFO - Item is unassigned
+2024-06-11 14:33:01,416 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:33:01] "[32mGET /returnproduct?id=adi123@nucleusteq.com&product=Router HTTP/1.1[0m" 302 -
+2024-06-11 14:33:01,438 - root - INFO - Inventory assign dashboard
+2024-06-11 14:33:01,439 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:33:01] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:33:34,410 - root - INFO - User login Here
+2024-06-11 14:33:34,411 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:33:34] "GET /userlogin HTTP/1.1" 200 -
+2024-06-11 14:33:34,455 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:33:34] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 14:34:19,255 - root - INFO - user dashboard accessed
+2024-06-11 14:34:19,256 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:34:19] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 14:34:19,277 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:34:19] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 14:34:19,281 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:34:19] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 14:34:41,399 - root - INFO - Landing page accessed
+2024-06-11 14:34:41,399 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:34:41] "GET / HTTP/1.1" 200 -
+2024-06-11 14:34:41,448 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:34:41] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-11 14:34:53,025 - root - INFO - admin dashboard-employee management
+2024-06-11 14:34:53,026 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:34:53] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:34:55,133 - root - INFO - Inventory assign dashboard
+2024-06-11 14:34:55,134 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:34:55] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:35:00,305 - root - INFO - Item assigned
+2024-06-11 14:35:00,305 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:00] "[32mPOST /allocateinventory HTTP/1.1[0m" 302 -
+2024-06-11 14:35:00,312 - root - INFO - Inventory assign dashboard
+2024-06-11 14:35:00,313 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:00] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:35:05,139 - root - INFO - user dashboard accessed
+2024-06-11 14:35:05,140 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:05] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 14:35:05,158 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:05] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 14:35:05,159 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:05] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 14:35:26,750 - root - INFO - Item is unassigned
+2024-06-11 14:35:26,750 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:26] "[32mGET /returnproduct?id=adi123@nucleusteq.com&product=Router HTTP/1.1[0m" 302 -
+2024-06-11 14:35:26,776 - root - INFO - Inventory assign dashboard
+2024-06-11 14:35:26,776 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:26] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 14:35:31,187 - root - INFO - user dashboard accessed
+2024-06-11 14:35:31,188 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:31] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 14:35:31,200 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:31] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 14:35:31,205 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:31] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 14:35:50,644 - root - INFO - admin dashboard-employee management
+2024-06-11 14:35:50,645 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:35:50] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:39:32,875 - root - INFO - admin dashboard-employee management
+2024-06-11 14:39:32,890 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:39:32] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:39:32,911 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:39:32] "[33mGET /static/js/jquery-3.2.1.min.js HTTP/1.1[0m" 404 -
+2024-06-11 14:40:14,524 - root - INFO - admin dashboard-employee management
+2024-06-11 14:40:14,547 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:40:14] "GET /index HTTP/1.1" 200 -
+2024-06-11 14:41:30,291 - root - INFO - User login Here
+2024-06-11 14:41:30,291 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:41:30] "GET /userlogin HTTP/1.1" 200 -
+2024-06-11 14:41:43,825 - root - INFO - Landing page accessed
+2024-06-11 14:41:43,825 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:41:43] "GET / HTTP/1.1" 200 -
+2024-06-11 14:41:43,846 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 14:41:43] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -
+2024-06-11 15:24:07,666 - root - INFO - admin register form
+2024-06-11 15:24:07,667 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 15:24:07] "GET /adminsignup HTTP/1.1" 200 -
+2024-06-11 15:24:07,770 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 15:24:07] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 15:24:14,706 - root - INFO - admin register form
+2024-06-11 15:24:14,706 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 15:24:14] "GET /adminsignup HTTP/1.1" 200 -
+2024-06-11 15:24:14,754 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 15:24:14] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 15:24:41,778 - root - INFO - admin login
+2024-06-11 15:24:41,782 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 15:24:41] "GET /admin HTTP/1.1" 200 -
+2024-06-11 15:24:41,829 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 15:24:41] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 15:48:39,505 - root - INFO - user dashboard accessed
+2024-06-11 15:48:39,536 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 15:48:39] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 15:48:39,619 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 15:48:39] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 15:48:39,620 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 15:48:39] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 16:02:41,243 - root - INFO - user registration dashboard
+2024-06-11 16:02:41,245 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:02:41] "GET /registration HTTP/1.1" 200 -
+2024-06-11 16:02:41,443 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:02:41] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 16:04:54,524 - root - INFO - Id exist
+2024-06-11 16:04:54,525 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:04:54] "POST /registration HTTP/1.1" 200 -
+2024-06-11 16:04:58,025 - root - INFO - user registration dashboard
+2024-06-11 16:04:58,025 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:04:58] "GET /registration HTTP/1.1" 200 -
+2024-06-11 16:04:58,073 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:04:58] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 16:09:25,609 - root - INFO - User login Here
+2024-06-11 16:09:25,609 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:09:25] "GET /userlogin HTTP/1.1" 200 -
+2024-06-11 16:09:25,705 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:09:25] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 16:09:43,437 - root - INFO - user dashboard accessed
+2024-06-11 16:09:43,438 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:09:43] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 16:09:43,478 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:09:43] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 16:09:43,480 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:09:43] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 16:09:56,093 - root - INFO - User login Here
+2024-06-11 16:09:56,095 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:09:56] "GET /userlogin HTTP/1.1" 200 -
+2024-06-11 16:11:56,818 - root - INFO - admin login
+2024-06-11 16:11:56,822 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:11:56] "GET /admin HTTP/1.1" 200 -
+2024-06-11 16:11:56,867 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:11:56] "[36mGET /static/bg2.png HTTP/1.1[0m" 304 -
+2024-06-11 16:12:07,453 - root - INFO - login successfull for admin
+2024-06-11 16:12:07,456 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:12:07] "[32mPOST /admin HTTP/1.1[0m" 302 -
+2024-06-11 16:12:07,486 - root - INFO - admin dashboard-employee management
+2024-06-11 16:12:07,489 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:12:07] "GET /index HTTP/1.1" 200 -
+2024-06-11 16:13:29,065 - root - INFO - inserted into employee
+2024-06-11 16:13:29,073 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:13:29] "[32mPOST /insert HTTP/1.1[0m" 302 -
+2024-06-11 16:13:29,093 - root - INFO - admin dashboard-employee management
+2024-06-11 16:13:29,096 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:13:29] "GET /index HTTP/1.1" 200 -
+2024-06-11 16:13:42,208 - root - INFO - update dashboard
+2024-06-11 16:13:42,208 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:13:42] "GET /update?id=5 HTTP/1.1" 200 -
+2024-06-11 16:13:51,437 - root - INFO - employee updated
+2024-06-11 16:13:51,437 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:13:51] "[32mPOST /update?id=5 HTTP/1.1[0m" 302 -
+2024-06-11 16:13:51,454 - root - INFO - admin dashboard-employee management
+2024-06-11 16:13:51,457 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:13:51] "GET /index HTTP/1.1" 200 -
+2024-06-11 16:14:12,778 - root - INFO - employee deleted
+2024-06-11 16:14:12,778 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:14:12] "[32mGET /delete?id=5 HTTP/1.1[0m" 302 -
+2024-06-11 16:14:12,805 - root - INFO - admin dashboard-employee management
+2024-06-11 16:14:12,805 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:14:12] "GET /index HTTP/1.1" 200 -
+2024-06-11 16:14:22,715 - root - INFO - Inventory dashboard
+2024-06-11 16:14:22,715 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:14:22] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 16:15:12,528 - root - INFO - Id already available
+2024-06-11 16:15:12,528 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:15:12] "POST /insert1 HTTP/1.1" 200 -
+2024-06-11 16:15:17,546 - root - INFO - Inventory dashboard
+2024-06-11 16:15:17,548 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:15:17] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 16:15:49,964 - root - INFO - product name already present
+2024-06-11 16:15:49,964 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:15:49] "POST /insert1 HTTP/1.1" 200 -
+2024-06-11 16:15:53,834 - root - INFO - Inventory dashboard
+2024-06-11 16:15:53,836 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:15:53] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 16:15:58,811 - root - INFO - update inventory item
+2024-06-11 16:15:58,814 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:15:58] "GET /update2?id=P05 HTTP/1.1" 200 -
+2024-06-11 16:16:08,118 - root - INFO - Item updated
+2024-06-11 16:16:08,118 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:16:08] "[32mPOST /update2?id=P05 HTTP/1.1[0m" 302 -
+2024-06-11 16:16:08,161 - root - INFO - Inventory dashboard
+2024-06-11 16:16:08,164 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:16:08] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 16:16:11,854 - root - INFO - deleted from inventory
+2024-06-11 16:16:11,860 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:16:11] "[32mGET /deleteinvt?id=P05 HTTP/1.1[0m" 302 -
+2024-06-11 16:16:11,874 - root - INFO - Inventory dashboard
+2024-06-11 16:16:11,874 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:16:11] "GET /index1 HTTP/1.1" 200 -
+2024-06-11 16:16:16,303 - root - INFO - Inventory assign dashboard
+2024-06-11 16:16:16,303 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:16:16] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 16:16:39,974 - root - INFO - Item is already assigned
+2024-06-11 16:16:39,975 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:16:39] "POST /allocateinventory HTTP/1.1" 200 -
+2024-06-11 16:16:43,246 - root - INFO - Inventory assign dashboard
+2024-06-11 16:16:43,246 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:16:43] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 16:16:58,834 - root - INFO - Item assigned
+2024-06-11 16:16:58,834 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:16:58] "[32mPOST /allocateinventory HTTP/1.1[0m" 302 -
+2024-06-11 16:16:58,874 - root - INFO - Inventory assign dashboard
+2024-06-11 16:16:58,878 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:16:58] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 16:17:30,633 - root - INFO - user dashboard accessed
+2024-06-11 16:17:30,634 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:17:30] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 16:17:30,714 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:17:30] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 16:17:30,718 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:17:30] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 16:17:37,721 - root - INFO - Item is unassigned
+2024-06-11 16:17:37,723 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:17:37] "[32mGET /returnproduct?id=adi123@nucleusteq.com&product=Hard%20Disk HTTP/1.1[0m" 302 -
+2024-06-11 16:17:37,753 - root - INFO - Inventory assign dashboard
+2024-06-11 16:17:37,754 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:17:37] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 16:17:40,665 - root - INFO - user dashboard accessed
+2024-06-11 16:17:40,667 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:17:40] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 16:17:40,698 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:17:40] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 16:17:40,703 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:17:40] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 16:18:15,371 - root - INFO - Item assigned
+2024-06-11 16:18:15,373 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:18:15] "[32mPOST /allocateinventory HTTP/1.1[0m" 302 -
+2024-06-11 16:18:15,401 - root - INFO - Inventory assign dashboard
+2024-06-11 16:18:15,403 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:18:15] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 16:18:31,499 - root - INFO - user dashboard accessed
+2024-06-11 16:18:31,502 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:18:31] "POST /userlogin HTTP/1.1" 200 -
+2024-06-11 16:18:31,538 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:18:31] "[36mGET /static/bg6.png HTTP/1.1[0m" 304 -
+2024-06-11 16:18:31,548 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:18:31] "[36mGET /static/bg0.jpg HTTP/1.1[0m" 304 -
+2024-06-11 16:18:41,464 - root - INFO - Item is already assigned
+2024-06-11 16:18:41,465 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:18:41] "POST /allocateinventory HTTP/1.1" 200 -
+2024-06-11 16:18:44,856 - root - INFO - Inventory assign dashboard
+2024-06-11 16:18:44,856 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:18:44] "GET /allocateinventory HTTP/1.1" 200 -
+2024-06-11 16:20:03,578 - root - INFO - admin dashboard-employee management
+2024-06-11 16:20:03,578 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:20:03] "GET /index HTTP/1.1" 200 -
+2024-06-11 16:21:56,643 - root - INFO - update inventory item
+2024-06-11 16:21:56,646 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:21:56] "GET /update2?id=P05 HTTP/1.1" 200 -
+2024-06-11 16:22:00,939 - root - INFO - Landing page accessed
+2024-06-11 16:22:00,943 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:22:00] "GET / HTTP/1.1" 200 -
+2024-06-11 16:22:01,021 - werkzeug - INFO - 127.0.0.1 - - [11/Jun/2024 16:22:01] "[36mGET /static/bg7.png HTTP/1.1[0m" 304 -

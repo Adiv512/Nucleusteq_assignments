@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <style>
+        body {
+            background-image: url('../static/bg0.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .a, .b {
+            font-size: 30px;
+            color: white;
+        }
+        .img {
+            height: 30px;
+            width: 50px;
+        }
+        .content {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 90%;
+            width: 600px;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 2px solid white;
+        }
+        th, td {
+            padding: 10px;
+        }
+        .heading {
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        
+        @media (max-width: 768px) {
+            .heading {
+                font-size: 20px;
+            }
+            table, th, td {
+                font-size: 14px;
+            }
+        }
+        @media (max-width: 480px) {
+            .heading {
+                font-size: 18px;
+            }
+            table, th, td {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="{{url_for('static', filename='bg6.png')}}" class="img" />
+        <p class="heading"><b>EMPLOYEE DETAIL</b></p>
+        <table>
+            <tr><td>Employee Id</td><td>{{rows[0]}}</td></tr>
+            <tr><td>Name</td><td>{{rows[1]}}</td></tr>
+            <tr><td>Email</td><td>{{rows[2]}}</td></tr>
+            <tr><td>Phone</td><td>{{rows[3]}}</td></tr>
+            <tr><td>Designation</td><td>{{rows[4]}}</td></tr>
+        </table>
+    </div>
+    <div class="content">
+        <p class="heading"><b>PRODUCT ASSIGN</b></p>
+        <table>
+            <tr><th>Product</th></tr>
+            {% for row in assign %}
+            <tr><td>{{row.1}}</td></tr>
+            {% endfor %}
+        </table>
+        
+
+    </div>
+    
+</body>
+</html>

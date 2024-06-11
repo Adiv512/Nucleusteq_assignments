@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Inventory</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <h1 class="text-center alert alert-danger">Update/Edit</h1>
+        <div class="col-12 col-md-2"></div>
+        <div class="col-12 col-md-8">
+            <h2 class="text-center">Update Here</h2>
+
+            {% with messages=get_flashed_messages() %}
+            {% if messages %}
+            {% for message in messages %}
+            <div class="alert alert-success alert-dismissable" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+            
+            <form method="POST">
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th scope="col">Product ID</th>
+                            <th scope="col">Product Name</th>
+                            <th scope="col">DOP</th>
+                            <th scope="col">Bill no.</th>
+                            <th scope="col">Warranty</th>
+                            <th scope="col">Quantity</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for row in inventory %}
+                        <tr>
+                            <td><input value="{{ row.0 }}" name="t1" class="form-control"></td>
+                            <td><input value="{{ row.1 }}" name="t2" class="form-control"></td>
+                            <td><input value="{{ row.2 }}" name="t3" class="form-control"></td>
+                            <td><input value="{{ row.3 }}" name="t4" class="form-control"></td>
+                            <td><input value="{{ row.4 }}" name="t5" class="form-control"></td>
+                            <td><input value="{{ row.5 }}" name="t6" class="form-control"></td>
+                            <td><input type="submit" class="btn btn-primary btn-sm" value="Update"></td>
+                        </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+        <div class="col-12 col-md-2"></div>
+    </div>
+    <div class="text-center mt-3">
+        <a href="index1" class="btn btn-warning btn-sm">MANAGE INVENTORY</a>
+    </div>
+</div>
+
+</body>
+</html>
